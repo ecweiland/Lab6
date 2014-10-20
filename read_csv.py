@@ -46,7 +46,8 @@ def write_one_to_db_version4(dept, courseNum):
 def print_hello():
     print "hello from Aaren"
 
-
+def dummy_method():
+    print "Elise"
 
 
 if __name__ == "__main__":
