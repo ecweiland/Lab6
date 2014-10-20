@@ -42,6 +42,9 @@ def write_one_to_db_version4(dept, courseNum):
         sql_cmd = "insert into coursedata values(?, ?, 1122, 'Lecture', 20, 20, 'T. Jefferson')"
         cur.execute(sql_cmd, (dept, courseNum)) # use ? in command string and a tuple to fill in each ?
         # this is nice, clean, simple. Don't have to remember quotes.  Also, avoids security risk!
+        
+def print_hello():
+    print "hello from Aaren"
 
 
 
